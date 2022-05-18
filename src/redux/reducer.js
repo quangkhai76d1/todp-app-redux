@@ -12,7 +12,6 @@ import TodoListReducer from "../components/TodoList/TodoSlice";
 const rootReducer = combineReducers({
   filters: FilterReducer,
   todoList: TodoListReducer,
-  statusFilter: FilterReducer,
 });
 
 export default rootReducer;
