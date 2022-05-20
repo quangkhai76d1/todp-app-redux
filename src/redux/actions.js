@@ -5,6 +5,13 @@ export const addTodo = (data) => {
   };
 };
 
+export const toggleTodoList = (id) => {
+  return {
+    type: "todoList/toggleTodoList",
+    payload: id,
+  };
+};
+
 export const searchFilterChange = (text) => {
   return {
     type: "filters/searchFilterChange",
