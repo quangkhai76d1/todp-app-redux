@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from "uuid";
 import { useDispatch, useSelector } from "react-redux";
 import { useState } from "react";
 import { newTodo } from "../../redux/selector";
-import { todoListSlice } from "./todoSlice";
+import { todoListSlice } from "./TodoSlice";
 
 export default function TodoList() {
   const dispatch = useDispatch();
