@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row, Input, Typography, Radio, Select, Tag } from "antd";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { filtersSlice } from "./filterSlice";
+import { filtersSlice } from "./FilterSlice";
 
 const { Search } = Input;
 
